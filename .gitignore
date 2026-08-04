@@ -1,0 +1,18 @@
+node_modules/
+.env
+*.csv
+/tmp/
+benchmarks/benchmark_data.csv
+
+# Docker volumes
+postgres_data/
+minio_data/
+grafana_data/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
